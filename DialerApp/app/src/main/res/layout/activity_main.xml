@@ -9,10 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="hu.ekekft.dialerapp.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/number_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:id="@+id/dial_button"
+        android:layout_alignBottom="@+id/number_editText"
+        android:layout_toRightOf="@+id/number_editText"
+        android:layout_toEndOf="@+id/number_editText" />
 
 </RelativeLayout>
