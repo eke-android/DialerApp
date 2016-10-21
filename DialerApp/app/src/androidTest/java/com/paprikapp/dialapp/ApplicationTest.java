@@ -1,4 +1,4 @@
-package hu.ekekft.dialerapp;
+package com.paprikapp.dialapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

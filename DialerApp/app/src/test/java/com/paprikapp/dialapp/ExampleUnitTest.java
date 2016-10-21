@@ -1,4 +1,4 @@
-package hu.ekekft.dialerapp;
+package com.paprikapp.dialapp;
 
 import org.junit.Test;
 
